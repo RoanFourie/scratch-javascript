@@ -1,0 +1,37 @@
+{
+  "name": "cute-files",
+  "version": "1.0.0",
+  "description": "Share a folder with this node.js application. Turn any folder on your computer into a cute file browser, available on the local network.",
+  "main": "cute-files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cute",
+    "file",
+    "browser",
+    "files"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoanFourie/scratch-javascript.git"
+  },
+  "author": {
+    "name": "Roan Fourie",
+    "email": "roanfourie@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "content-disposition": "^0.3.0",
+    "express": "^4.15.3"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "cute-files": "cute-files.js"
+  },
+  "readmeFilename": "REDME.md",
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}
