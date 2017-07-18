@@ -1,11 +1,11 @@
 # Flipster
 a simple desktop application using Node-WebKit, which combines jQuery and a few Node.js modules.
-It fetches the most recent articles on Tutorialzine from our RSS feed and turns them into a cool looking 3D carousel using (jQuery Flipster)[https://github.com/drien/jquery-flipster].
+It fetches the most recent articles on Tutorialzine from our RSS feed and turns them into a cool looking 3D carousel using [jQuery Flipster](https://github.com/drien/jquery-flipster).
 
-A tutorial from this website: (tutorialzine.com)[https://tutorialzine.com/2015/01/your-first-node-webkit-app]
+A tutorial from this website: [tutorialzine.com](https://tutorialzine.com/2015/01/your-first-node-webkit-app)
 
 ## Installing Node-WebKit
-Head over to (the project page)[https://github.com/rogerwang/node-webkit] and download the executable that is built for your operating system. Extract the archive somewhere on your computer. To start it, you need to do this in your terminal:
+Head over to [the project page](https://github.com/rogerwang/node-webkit) and download the executable that is built for your operating system. Extract the archive somewhere on your computer. To start it, you need to do this in your terminal:
 
 ```
 # If you are on linux/osx
@@ -24,4 +24,5 @@ From here this looks like a standard static website. However, it won't work if y
 
 /path/to/node-webkit/nw .
 
-## To run you can do: ```C:\path\to\node-webkit\nw.exe C:\your\project\folder```
+## To run you can do:
+```C:\path\to\node-webkit\nw.exe C:\your\project\folder```
